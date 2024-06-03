@@ -1,0 +1,29 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .product-item {
+    border: 1px solid #585656;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .added-to-cart-message {
+    color: green;
+    font-size: 0.9em;
+    margin-top: 10px;
+  }
+  
